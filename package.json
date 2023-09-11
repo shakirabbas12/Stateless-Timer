@@ -1,0 +1,35 @@
+{
+  "name": "stateless_timer",
+  "version": "1.0.9",
+  "description": "",
+  "type": "commonjs",
+  "main": "build/Timer.js",
+  "types": "build/Timer.d.ts",
+  "files": [
+    "/build"
+  ],
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/node": "^18.15.11",
+    "@types/stompit": "^0.26.3",
+    "@types/uuid": "^9.0.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "ioredis": "^5.3.1",
+    "json-object-mapper": "^1.7.1",
+    "reflect-metadata": "^0.1.13",
+    "stompit": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}
